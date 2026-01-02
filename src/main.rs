@@ -1,6 +1,21 @@
 
 
-
+fn main(){
+    struct Student{
+        name: String,
+        age: i32,
+        marks: u32,
+    }
+    let mut students = Student {
+        name: String::from("Nithwin"),
+        marks: 100,
+        age: 21,
+    };
+    students.name = "Nithwin V M".to_string();
+    println!("{}", students.age);
+    println!("{}", students.name);
+    println!("{}", students.marks);
+}
 
 // fn main(){
 //     // let mut v = Vec::new();
