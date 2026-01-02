@@ -2,7 +2,21 @@
 use std::io;
 
 
-fn main(){
+
+
+
+
+
+// fn greet(name: String){
+//     print!("Hello {}", name);
+// }
+// fn main(){
+//     let name: String = String::from("Nithwin");
+//     print!("{}", name);
+//     greet(name);
+// }
+
+//fn main(){
     // loop {
     //     print!("Akhila... ")
     // }
@@ -21,7 +35,7 @@ fn main(){
     // for i in 0..=100 {
     //     print!("{}\n", i);
     // }
-}
+//}
 
 // fn main(){
 //     let mut input=String::new();
