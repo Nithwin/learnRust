@@ -1,7 +1,29 @@
 
 use std::io;
 
+// fn print_name(name: &mut String){
+//     name.push_str(" V M ");
+//     print!("{}", name);
+// }
 
+// fn print_len(name: &String){
+//     print!("{}", name.len());
+// }
+
+fn appends(name: &mut String){
+    name.push_str(" Rust");
+}
+
+fn main(){
+    //let mut name = String::from("Nithwin");
+    let mut name = String::from("I Love ");
+    appends(&mut name);
+    print!("{}", name);
+    //print_len(&name);
+    //let name2 = name;
+    //print_name(&mut name);
+    // print!("{}", name);
+}
 
 
 
