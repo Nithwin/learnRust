@@ -1,6 +1,58 @@
 
 use std::io;
 
+fn first_word(s: &str) -> &str {
+    "hi"   
+}
+
+fn main(){
+    // let arr = [1,2,3,4,5];
+    // print!("{:?}", arr);
+     let mut s = String::from("Hello Rust ");
+     println!("{}", s.len());
+     println!("{}", s.is_empty());
+     s.push('!');
+     s.push_str(" Pushed");
+    // println!("{}", s);
+    // println!("{}", s.contains("Rust"));
+    // println!("{}", s.starts_with("Hello"));
+    // println!("{}", s.ends_with("Pushed"));
+    s = s.replace("Pushed", "Best Programming language");
+    // for word in s.split(' '){
+    //     println!("{}", word);
+    // }
+    // for word in s.split_whitespace(){
+    //     println!("{}", word);
+    // }
+    s = s.to_lowercase();
+    s = s.to_uppercase();
+    for word in s.lines(){
+        println!("{}", word);
+    }
+    //println!("{}", s);
+    // for c in s.chars() {
+    //     print!("{}", c);
+    // }
+    // for (i,c) in s.chars().enumerate() {
+    //     print!("{}.{} ", i, c);
+    // }
+    // let hello = &s[0..5];
+    // let rust = &s[6..10];
+    // println!("{}", hello);
+    // println!("{}", rust);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // fn print_name(name: &mut String){
 //     name.push_str(" V M ");
 //     print!("{}", name);
@@ -10,20 +62,20 @@ use std::io;
 //     print!("{}", name.len());
 // }
 
-fn appends(name: &mut String){
-    name.push_str(" Rust");
-}
+// fn appends(name: &mut String){
+//     name.push_str(" Rust");
+// }
 
-fn main(){
-    //let mut name = String::from("Nithwin");
-    let mut name = String::from("I Love ");
-    appends(&mut name);
-    print!("{}", name);
-    //print_len(&name);
-    //let name2 = name;
-    //print_name(&mut name);
-    // print!("{}", name);
-}
+// fn main(){
+//     //let mut name = String::from("Nithwin");
+//     let mut name = String::from("I Love ");
+//     appends(&mut name);
+//     print!("{}", name);
+//     //print_len(&name);
+//     //let name2 = name;
+//     //print_name(&mut name);
+//     // print!("{}", name);
+// }
 
 
 
