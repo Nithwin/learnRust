@@ -1,46 +1,83 @@
 
-use std::io;
 
-fn first_word(s: &str) -> &str {
-    "hi"   
-}
 
-fn main(){
-    // let arr = [1,2,3,4,5];
-    // print!("{:?}", arr);
-     let mut s = String::from("Hello Rust ");
-     println!("{}", s.len());
-     println!("{}", s.is_empty());
-     s.push('!');
-     s.push_str(" Pushed");
-    // println!("{}", s);
-    // println!("{}", s.contains("Rust"));
-    // println!("{}", s.starts_with("Hello"));
-    // println!("{}", s.ends_with("Pushed"));
-    s = s.replace("Pushed", "Best Programming language");
-    // for word in s.split(' '){
-    //     println!("{}", word);
-    // }
-    // for word in s.split_whitespace(){
-    //     println!("{}", word);
-    // }
-    s = s.to_lowercase();
-    s = s.to_uppercase();
-    for word in s.lines(){
-        println!("{}", word);
-    }
-    //println!("{}", s);
-    // for c in s.chars() {
-    //     print!("{}", c);
-    // }
-    // for (i,c) in s.chars().enumerate() {
-    //     print!("{}.{} ", i, c);
-    // }
-    // let hello = &s[0..5];
-    // let rust = &s[6..10];
-    // println!("{}", hello);
-    // println!("{}", rust);
-}
+
+// fn main(){
+//     // let mut v = Vec::new();
+//     // v.push(5);
+//     // v.push(4);
+//     // v.push(2);
+//     // v.push(9);
+//     let mut v = vec![1,2,3,4,5];
+//     v.pop();
+//     v.is_empty();
+//     let first = v[0] ;
+//     println!("{}", first);
+//     match v.get(10) {
+//         Some(x) => println!("{}", x),
+//         None => print!("No value")
+//     }
+//     for n in &v {
+//         print!("{} ", n);
+//     }
+//     // let nums = [1,2,3,4,5];
+//     // println!("{}", nums[0]);
+//     // for n in 0..nums.len() {
+//     //     print!("{} ", n);
+//     // }
+// }
+
+
+
+
+
+
+
+
+
+
+// use std::io;
+
+// fn first_word(s: &str) -> &str {
+//     "hi"   
+// }
+
+// fn main(){
+//     // let arr = [1,2,3,4,5];
+//     // print!("{:?}", arr);
+//      let mut s = String::from("Hello Rust ");
+//      println!("{}", s.len());
+//      println!("{}", s.is_empty());
+//      s.push('!');
+//      s.push_str(" Pushed");
+//     // println!("{}", s);
+//     // println!("{}", s.contains("Rust"));
+//     // println!("{}", s.starts_with("Hello"));
+//     // println!("{}", s.ends_with("Pushed"));
+//     s = s.replace("Pushed", "Best Programming language");
+//     // for word in s.split(' '){
+//     //     println!("{}", word);
+//     // }
+//     // for word in s.split_whitespace(){
+//     //     println!("{}", word);
+//     // }
+//     s = s.to_lowercase();
+//     s = s.to_uppercase();
+//     for word in s.lines(){
+//         println!("{}", word);
+//     }
+//     //println!("{}", s);
+//     // for c in s.chars() {
+//     //     print!("{}", c);
+//     // }
+//     // for (i,c) in s.chars().enumerate() {
+//     //     print!("{}.{} ", i, c);
+//     // }
+//     // let hello = &s[0..5];
+//     // let rust = &s[6..10];
+//     // println!("{}", hello);
+//     // println!("{}", rust);
+// }
 
 
 
